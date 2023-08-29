@@ -1,6 +1,8 @@
 :root.dark-mode {
-  --clr-white: white;
-
+  --clr-text: rgb(255, 255, 255);
+  --clr-bg: rgb(0, 0, 15);
+  --clr-white: rgb(39, 40, 53);
+  --filter: invert(80%);
 }
 
 // Toggle
@@ -17,9 +19,12 @@
   height: var(--size);
   box-shadow: inset calc(var(--size) * 0.33) calc(var(--size) * -0.25) 0;
   border-radius: 999px;
-  color: hsl(240, 100%, 95%);
-
+  color: hsl(240, 5%, 17%);
   transition: all 500ms;
+
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 
   &:checked {
     --ray-size: calc(var(--size) * -0.4);
