@@ -29,9 +29,24 @@
 
 <!-- Brief -->
 
+Pixel to Rem Converter is a handy web application that assists web developers and designers in converting pixel measurements to rem units and vice versa. This tool helps ensure consistent and responsive design across different devices and screen sizes.
+
 <!--  -->
 
+## Features
 
+- Convert pixel values to rem units.
+- Convert rem values to pixel units.
+- User-friendly interface with input fields for both pixel and rem conversions.
+- Instant conversion feedback.
+- Dark mode toggle
+
+## Built with
+
+- Vanilla JavaScript
+- SASS
+- HTML5
+- Vite - Module bundler
 
 ## Contact
 
